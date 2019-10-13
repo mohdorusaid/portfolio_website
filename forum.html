@@ -1,10 +1,10 @@
-<html lang=en>
+74244<html lang=en>
         <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Forums</title>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -14,19 +14,50 @@
         background-color: black;
     }
     
+    .container {
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    #project_link{
+            color:white;
+
+    }
+
+    @media (max-width: 700px){
+
+            img#preview_box{
+                    width:60% !important;
+                    height:50% !important;
+            }
+    }
     </style>
 
     <body>
             <div class="container">
-                    <h1 style="text-align: center; color: blanchedalmond">Forums</h1>
+                    <h1 style="text-align: center; color: blanchedalmond">Projects</h1>
                     <hr color="white">
                 </div>
-
-
-        <div class="container" style="text-align: center;">
-             <h1 style="padding-top: 30%; color: white">CONTENT COMING SOON!</h1>
+        <div style="padding-bottom: 20px;">
+        <div class="container" style="background:rgb(78, 78, 78); font-family: monospace; border: 20px; border-radius: 50px; color: rgb(255,255,255); padding-bottom: 30px">        
+        <div id="video1" class="video container" style="padding-top: 20px; padding-bottom: 20px;">
+                <iframe style ="display: block; margin: 0 auto; border-radius: 50px; overflow: hidden;" class="container"  width="80%" height="75%" src="https://www.youtube.com/embed/y-dnoo2ryyA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-            
-    </body>
+        <div id="caption" style="padding-bottom: 30px; font-size:20px; padding-left:20px; padding-right: 25px;">
+                This is a documentary created by the combined efforts of Mohd Usaid and Shishir Raj and shall serve as a medium to reminisce the memories created by all the students of St.Fidelis College's class XIIth's batch of 2018-19.View in 720p50fps for the best experience.
+        </div>
+    </div>
+    </div>
+    <div class="container" style="background:rgb(78, 78, 78); font-family: monospace; border: 20px; border-radius: 50px; color: rgb(255,255,255); padding-bottom: 30px">
+        <img src="img/githubproject.png" width="50%" style="margin-left: 25%; padding-top: 20px; padding-bottom:20px;overflow:hidden;border-radius:50px;" id="preview_box">
+        <div id="links" style="text-align:center; font-size:20px;">
+        <a id="project_link" class="active" href="https://github.com/mohdorusaid/HappyBirthdayApp">Github</a>
+        </div>
 
+        <div id="caption" style="padding-bottom: 30px; font-size:20px; padding-left:20px; padding-right: 25px;">
+             A simple Happy Birthday App coded in Java using Android Studio.The application takes 3 inputs from the user and an image and clicking the submit button takes the user to the next activity where the user is greeted with wishes on the image that was selected. 
+        </div>
+
+</div>
+    </body>
 </html>
